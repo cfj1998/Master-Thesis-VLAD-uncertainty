@@ -1,10 +1,9 @@
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
-#Read data and format correctly for glm
-#All the code from line 5-60 was provided to me by Jan Terje Kvaloy
 library(foreign)#To read SPSS file
 library(zoo)
 library(forecast)
+#All the code from line 7-58 was provided to me by my supervisor
 hbbdata=read.spss("HBB data 30.07.09-31.01.17.sav", use.value.labels = FALSE, to.data.frame = TRUE)
 hbbdata=hbbdata[(hbbdata$NEONATAL_OUTCOM<5),]#Removes Neonatal outcome=5 from data
 hbbdata=hbbdata[!is.na(hbbdata$NEONATAL_OUTCOM),]#removes Neonatal outcome=NA from data
