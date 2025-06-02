@@ -1,13 +1,12 @@
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
-#Read data and format correctly for glm
 library(foreign)#To read SPSS file
 library(zoo)
 library(forecast)
 #Lambda values
 lambda.norisk = 0.0008
 lambda.risk = 0.0007
-#The next few lines are provided code by Jan Terje Kvaloy
+#The code from line 10-60 were provided to me by my supervisor
 hbbdata=read.spss("HBB data 30.07.09-31.01.17.sav", use.value.labels = FALSE, to.data.frame = TRUE)
 hbbdata=hbbdata[(hbbdata$NEONATAL_OUTCOM<5),]#Removes Neonatal outcome=5 from data
 hbbdata=hbbdata[!is.na(hbbdata$NEONATAL_OUTCOM),]#removes Neonatal outcome=NA from data
@@ -58,7 +57,6 @@ estmod1kg_fit <- summary(estmod1kg)
 estmod1kg_fit
 estmod1non_risk <- glm(y~1, family = binomial("logit"), data = estdata1)
 estmod1non_risk_fit <- summary(estmod1non_risk)
-#end of provided code
 estmod1non_risk_fit
 
 #calculations
