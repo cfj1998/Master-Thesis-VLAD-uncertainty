@@ -75,6 +75,7 @@ mean(pred_risk_delta)
 #chart making
 library(spcadjust)
 set.seed(1)
+#Delta-values -0.37 and -0.21 were provided to me by my supervisor
 chartlogreg_baseline <- new("SPCCUSUM", model = SPCModellogregLikRatio(Delta = -0.37, 
                                                                        formula = 
                                                                          y~x1kg + x2 + f2 +
