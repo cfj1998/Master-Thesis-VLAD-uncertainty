@@ -1,11 +1,11 @@
 rm(list = ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 
-#All the code from line 5-60 was provided to me by Jan Terje Kvaloy
 library(foreign)#To read SPSS file
 library(zoo)
 library(forecast)
 library(spcadjust)
+#All the code from line 9-62 was provided to me by my supervisor
 hbbdata=read.spss("HBB data 30.07.09-31.01.17.sav", use.value.labels = FALSE, to.data.frame = TRUE)
 hbbdata=hbbdata[(hbbdata$NEONATAL_OUTCOM<5),]#Removes Neonatal outcome=5 from data
 hbbdata=hbbdata[!is.na(hbbdata$NEONATAL_OUTCOM),]#removes Neonatal outcome=NA from data
@@ -60,6 +60,7 @@ estmod1kg_fit
 estmod1non_risk <- glm(y~1, family = binomial("logit"), data = estdata1)
 estmod1non_risk_fit <- summary(estmod1non_risk)
 estmod1non_risk_fit
+#end of provided code
 #calculations
 total_number_births <- 31122
 births_per_date <- 31122/13 #average number of births
