@@ -5,7 +5,7 @@ setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 library(foreign)#To read SPSS file
 library(zoo)
 library(forecast)
-#The following code was provided to me by Jan Terje Kvaloy
+#The following code was provided to me by my supervisor (line 9-59)
 hbbdata=read.spss("HBB data 30.07.09-31.01.17.sav", use.value.labels = FALSE, to.data.frame = TRUE)
 hbbdata=hbbdata[(hbbdata$NEONATAL_OUTCOM<5),]#Removes Neonatal outcome=5 from data
 hbbdata=hbbdata[!is.na(hbbdata$NEONATAL_OUTCOM),]#removes Neonatal outcome=NA from data
