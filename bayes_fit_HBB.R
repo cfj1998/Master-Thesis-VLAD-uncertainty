@@ -1,6 +1,6 @@
 #Bayesian Interval in the non risk HBB setting
 #edited by me
-#Orignial Code provided to me by Jan Terje Kvaloy
+#Orignial Code provided to me by my supervisor. The alpha_0 and beta0 were chosen by me. 
 rm(list = ls())
 
 #prior distribution
