@@ -58,7 +58,7 @@ estmod1kg_fit
 estmod1non_risk <- glm(y~1, family = binomial("logit"), data = estdata1)
 estmod1non_risk_fit <- summary(estmod1non_risk)
 estmod1non_risk_fit
-
+#end of provided code
 #calculations
 total_number_births <- 31122
 births_per_date <- 31122/13 #average number of births
