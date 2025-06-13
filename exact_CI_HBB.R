@@ -1,6 +1,6 @@
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
-library(foreign)#To read SPSS file
+library(foreign)#To read SPSS file #This line of code was provided to me by supervisor
 library(zoo)
 library(forecast)
 #All the code from line 7-58 was provided to me by my supervisor
