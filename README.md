@@ -6,4 +6,4 @@ Not all the code in the files was used in the thesis.
 For the code files that analyse the HBB dataset, I have chosen 
 to show the code, but the dataset is not available to the public; therefore, the files that use this dataset cannot run.
 Do not ask me for the HBB dataset; I will ignore all such requests. 
-You are free to download and run the R files that use a simulated dataset to test them for yourself. 
+You are free to download, edit and run the R files that use simulated datasets to test them for yourself. 
