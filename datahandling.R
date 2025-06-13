@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 #Read data and format correctly for glm
@@ -425,7 +424,6 @@ par(mfrow = c(2, 2))
 plot(x=j, y = error_norisk, ylab = "error", xlab = "t")
 plot(x=j, y = error_risk, ylab = "error", xlab = "t")
 
-=======
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 #Read data and format correctly for glm
@@ -852,8 +850,7 @@ par(mfrow = c(2, 2))
 plot(x=j, y = error_norisk, ylab = "error", xlab = "t")
 plot(x=j, y = error_risk, ylab = "error", xlab = "t")
 
->>>>>>> 67fc95e (Update datahandling.R)
-=======
+
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 
@@ -1280,4 +1277,3 @@ par(mfrow = c(2, 2))
 plot(x=j, y = error_norisk, ylab = "error", xlab = "t")
 plot(x=j, y = error_risk, ylab = "error", xlab = "t")
 
->>>>>>> d916089 (Update datahandling.R)

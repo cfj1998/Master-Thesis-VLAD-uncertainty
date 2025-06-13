@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Using Baseline and Monitoring data to estimate variance and standard error of VLAd
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
@@ -315,7 +314,7 @@ lines(x=t, y=vlad.norisk.UCL, col="green")
 lines(x=t, y=vlad.norisk.LCL, col="red")
 legend("topleft", legend = c("UCL", "LCL", "w = 5000"), col = c("green", "red", "white"), lty = c(1, 1, 0))
 
-=======
+
 #Using Baseline and Monitoring data to estimate variance and standard error of VLAd
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
@@ -632,4 +631,3 @@ lines(x=t, y=vlad.norisk.UCL, col="green")
 lines(x=t, y=vlad.norisk.LCL, col="red")
 legend("topleft", legend = c("UCL", "LCL", "w = 5000"), col = c("green", "red", "white"), lty = c(1, 1, 0))
 
->>>>>>> bac5cd7 (Update CI_VLAD_HBB_Monitoring+Baseline.R)

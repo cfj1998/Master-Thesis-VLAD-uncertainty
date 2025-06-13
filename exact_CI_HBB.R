@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 library(foreign)#To read SPSS file
@@ -251,7 +250,6 @@ axis(1,las=2, at=c(1,cnMonth2[6],cnMonth2[12],cnMonth2[18],cnMonth2[24],cnMonth2
 abline(0,0,lty=2)
 lines(x = j, y = V.norisk.min, col = "red")
 lines(x = j, y = V.norisk.max, col = "green")
-=======
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 library(foreign)#To read SPSS file #This line of code was provided to me by supervisor
@@ -504,4 +502,3 @@ axis(1,las=2, at=c(1,cnMonth2[6],cnMonth2[12],cnMonth2[18],cnMonth2[24],cnMonth2
 abline(0,0,lty=2)
 lines(x = j, y = V.norisk.min, col = "red")
 lines(x = j, y = V.norisk.max, col = "green")
->>>>>>> 5b63ae2 (Update exact_CI_HBB.R)

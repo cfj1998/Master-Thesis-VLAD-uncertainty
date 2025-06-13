@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 #Read data and format correctly for glm
@@ -206,7 +205,6 @@ prob
 #   prob[i] <- mean(A.matrix[i, ])
 # }
 # prob
-=======
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 #Read data and format correctly for glm
@@ -414,4 +412,3 @@ prob
 #   prob[i] <- mean(A.matrix[i, ])
 # }
 # prob
->>>>>>> f914f9a (Update L_MP_HBB_Norisk.R)

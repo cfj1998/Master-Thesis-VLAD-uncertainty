@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 #Read data and format correctly for glm
@@ -220,7 +219,6 @@ abline(0,0,lty=2)
 lines(x=j, y=U_n.risk, col = "green")
 lines(x=j, y=L_n.risk, col = "red")
 legend("bottomright", legend = c("UCL", "LCL", "V_t"), col=c("green", "red", "black"), lty=c(1, 1, 1))
-=======
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 #Read data and format correctly for glm
@@ -442,4 +440,3 @@ abline(0,0,lty=2)
 lines(x=j, y=U_n.risk, col = "green")
 lines(x=j, y=L_n.risk, col = "red")
 legend("bottomright", legend = c("UCL", "LCL", "V_t"), col=c("green", "red", "black"), lty=c(1, 1, 1))
->>>>>>> 167d9b4 (Update HBBCUSUMOE.R)

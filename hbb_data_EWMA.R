@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 library(foreign)#To read SPSS file
@@ -187,7 +186,6 @@ abline(0,0,lty=2)
 lines(x=j, y=Upper_Vlad_limit_risk, col = "green")
 lines(x=j, y=Lower_vlad_limit_risk, col = "red")
 legend("bottomright", legend = c("UEWMACL", "LEWMACL", "V_t"), col=c("green", "red", "black"), lty=c(1, 1, 1, 1))
-=======
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 library(foreign)#To read SPSS file #This line of code was provided to me by supervisor
@@ -376,4 +374,3 @@ abline(0,0,lty=2)
 lines(x=j, y=Upper_Vlad_limit_risk, col = "green")
 lines(x=j, y=Lower_vlad_limit_risk, col = "red")
 legend("bottomright", legend = c("UEWMACL", "LEWMACL", "V_t"), col=c("green", "red", "black"), lty=c(1, 1, 1, 1))
->>>>>>> 6f0c6cd (Update hbb_data_EWMA.R)

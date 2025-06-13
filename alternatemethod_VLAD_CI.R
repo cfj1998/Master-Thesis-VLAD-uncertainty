@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 #Read data and format correctly for glm
@@ -171,7 +170,6 @@ legend("topleft", legend = c("V_t", "LCI", "UCI"), col = c("black", "red", "gree
 #   error_norisk[i] <- sqrt(((-1.96^2)/(4*4893))*(((-2*(V.nonrisk[i]+cusum_Y[i])+i)/i)^2)-1)
 # }
 # plot(x=j, y = error_norisk)
-=======
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 #Read data and format correctly for glm
@@ -344,4 +342,3 @@ legend("topleft", legend = c("V_t", "LCI", "UCI"), col = c("black", "red", "gree
 #   error_norisk[i] <- sqrt(((-1.96^2)/(4*4893))*(((-2*(V.nonrisk[i]+cusum_Y[i])+i)/i)^2)-1)
 # }
 # plot(x=j, y = error_norisk)
->>>>>>> e90d07d (Update alternatemethod_VLAD_CI.R)

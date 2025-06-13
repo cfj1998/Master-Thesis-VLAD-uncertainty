@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 rm(list = ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 
@@ -221,7 +220,6 @@ for(i in 1:s){
 }
 prob
 
-=======
 rm(list = ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 
@@ -444,4 +442,3 @@ for(i in 1:s){
 }
 prob
 
->>>>>>> 1cdac42 (Update L_MP_HBB_Risk.R)

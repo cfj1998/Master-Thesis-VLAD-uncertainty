@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Bootstrap VLAD CI
 #library(boot)
 # V_t = sum(E_t - O_t)
@@ -207,7 +206,6 @@ lines(x=j, y = ci.risk.perc.low, col = "red")
 lines(x=j, y = ci.risk.perc.up, col = "green")
 
 
-=======
 #Bootstrap VLAD CI
 #library(boot)
 # V_t = sum(E_t - O_t)
@@ -416,4 +414,3 @@ lines(x=j, y = ci.risk.perc.low, col = "red")
 lines(x=j, y = ci.risk.perc.up, col = "green")
 
 
->>>>>>> 3d106a3 (Update bootstrap_HBB.R)

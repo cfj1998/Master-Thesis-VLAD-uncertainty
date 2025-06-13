@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 #Read data and format correctly for glm
@@ -256,7 +255,6 @@ abline(0,0,lty=2)
 legend("topleft", legend = c("UCL", "LCL", "w = 5000"), col = c("green", "red", "white"), lty = c(1, 1, 0))
 lines(x=j, y=vlad.risk.UCL, col="green")
 lines(x=j, y=vlad.risk.LCL, col="red")
-=======
 rm(list=ls())
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 #Read data and format correctly for glm
@@ -514,4 +512,3 @@ abline(0,0,lty=2)
 legend("topleft", legend = c("UCL", "LCL", "w = 5000"), col = c("green", "red", "white"), lty = c(1, 1, 0))
 lines(x=j, y=vlad.risk.UCL, col="green")
 lines(x=j, y=vlad.risk.LCL, col="red")
->>>>>>> e799205 (Update VLAD_Moving_proporting_control_limits.R)
