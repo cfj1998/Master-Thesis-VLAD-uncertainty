@@ -1,4 +1,5 @@
-#Bayesian Interval in the non risk HBB setting
+#The code in this file was used to create a bayesian interval in the no-risk setting 
+#The code can be used for all data that require beta prior distribution. 
 #edited by me
 # Original Code provided to me by my supervisor. The alpha_0 and beta0 were chosen by me. 
 rm(list = ls())
