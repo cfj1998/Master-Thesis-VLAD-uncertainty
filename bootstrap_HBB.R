@@ -6,7 +6,7 @@ rm(list=ls())
 set.seed(4)
 setwd("C:/Users/1998c/OneDrive/Skrivebord/Masteroppgave")
 #Read data and format correctly for glm
-library(foreign)#To read SPSS file
+library(foreign)#To read SPSS file #This line of code was provided to me by supervisor
 library(zoo)
 library(forecast)
 #Following code provided to me by my supervisor (line 13-65)
