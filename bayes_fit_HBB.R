@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Bayesian Interval in the non risk HBB setting
 #edited by me
 #Orignial Code provided to me by my supervisor. The alpha_0 and beta0 were chosen by me. 
@@ -77,7 +76,6 @@ sumybaseline <- 133
 qbeta(0.025,shape1 = sumybaseline+alpha0, shape2 = nbaseline-sumybaseline+beta0)
 
 qbeta(0.975,shape1 = sumybaseline+alpha0, shape2 = nbaseline-sumybaseline+beta0)
-=======
 #The code in this file was used to create a bayesian interval in the no-risk setting 
 #The code can be used for all data that require beta prior distribution. 
 #edited by me
@@ -118,4 +116,3 @@ sumybaseline <- 133
 qbeta(0.025,shape1 = sumybaseline+alpha0, shape2 = nbaseline-sumybaseline+beta0)
 
 qbeta(0.975,shape1 = sumybaseline+alpha0, shape2 = nbaseline-sumybaseline+beta0)
->>>>>>> e7822e9 (Update bayes_fit_HBB.R)
