@@ -1,5 +1,5 @@
 # Master-Thesis-VLAD-uncertainty
-I was forced to make recent changes to this repository to fix problems; as a result, certain files had to be reuploaded. None of the code has been edited. 
+I was forced to make recent changes to this repository to fix problems; as a result, certain files had to be reuploaded. None of the code has been edited. I have also added files that were not there previously.
 This repository contains R-code files that were used in my master thesis.
 Not all of the code is mine. The code that is not mine is clearly marked in the R-files that use code that were provided to me
 R-code files that were used for my thesis.
